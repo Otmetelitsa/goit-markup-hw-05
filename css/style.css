@@ -266,7 +266,7 @@ button:focus {
 
 /* HERO */
 
-.hero {
+.page-hero .conteiner {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -275,6 +275,7 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   max-width: 1600px;
+  width: 100%;
   margin: 0 auto;
 }
 
