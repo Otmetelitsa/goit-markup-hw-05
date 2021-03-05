@@ -65,7 +65,20 @@
             <!-- HERO -->
             <div class="conteiner">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="hero-btn">Заказать услугу</button>
+                <button type="button" class="hero-btn" data-modal-open>Заказать услугу</button>
+            
+                <!-- MODAL -->
+
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <p></p>
+                        <button class="close-btn" data-modal-close>
+                            <svg class="close-icon">
+                                <use href="./images/sprite.svg#close"></use>
+                            </svg>
+                        </button>                       
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -125,15 +138,30 @@
 
                 <ul class="occupation-list">
                     <li class="occupation-img">
-                        <img src="./images/box1.jpg" alt="img">
+                        <div class="thumb">
+                            <img src="./images/box1.jpg" alt="img">
+                            <div class="occupation-overlay">
+                                <p class="occupation-overlay-text">Десктопные приложения</p>
+                            </div>
+                        </div> 
                     </li>
 
                     <li class="occupation-img">
-                        <img src="./images/box2.jpg" alt="img">
+                        <div class="thumb">
+                            <img src="./images/box2.jpg" alt="img">
+                            <div class="occupation-overlay">
+                                <p class="occupation-overlay-text">Мобильные приложения</p>
+                            </div>
+                        </div>
                     </li>
 
                     <li class="occupation-img">
-                        <img src="./images/box3.jpg" alt="img">
+                        <div class="thumb">
+                            <img src="./images/box3.jpg" alt="img">
+                            <div class="occupation-overlay">
+                                <p class="occupation-overlay-text">Дизайнерские решения</p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -444,5 +472,6 @@
             </div>
         </section>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
