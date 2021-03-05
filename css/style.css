@@ -117,7 +117,7 @@ button:focus {
   color: var(--text-white);
 }
 
-.hero,
+.page-hero,
 .footer,
 .footer-contact,
 .footer-logo,
@@ -278,7 +278,7 @@ button:focus {
   margin: 0 auto;
 }
 
-.hero .conteiner {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
